@@ -30,13 +30,18 @@ https://github.com/pratik-276/End-to-End-Machine-Learning-Projects.git
 
 3. Move inside the ` /IRIS Flower Classification Project ` folder and open CLI in that folder
 
-4. Run the following commands in the command line to get your flask app started
+4. Install the required libraries by the following command
+```sh
+pip install -r requirements.txt
+```
+
+5. Run the following commands in the command line to get your flask app started
 ```sh
 set FLASK_APP=main.py
 flask run
 ```
 
-5. Go to `http://127.0.0.1:5000/` and check out the flask app.
+6. Go to `http://127.0.0.1:5000/` and check out the flask app.
 
 ## Contents
 
