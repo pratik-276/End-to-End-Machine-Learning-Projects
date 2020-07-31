@@ -17,6 +17,9 @@ This Web Application powered by Machine Learning and Flask focusses on bringing 
   <li>Sklearn</li>
 </ul>
 
+## Visualizations
+All the visualizations used in this project can be found in this <a href="https://www.kaggle.com/pratik1120/iris-visualization-and-model-performances">Kaggle Kernel</a>
+
 ## Installation
 
 1. Drop a ⭐ on the Github Repository.
