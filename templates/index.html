@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>IRIS FLOWER CLASSIFICATION</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+  </head>
+
+  <body>
+      <div id="topbar">
+          <p id="homeb">DATA</p>
+          <p id="visualizationb">VISUALIZATIONS</p>
+          <p id="performanceb">PERFORMANCE</p>
+          <p id="predictionb">PREDICTION</p>
+      </div>
+      <div id="home">
+          <div id="homeleft">
+              <p id="dcoll">Data Collection</p>
+              <p id="dclean">Data Cleaning</p>
+              <p id="ddesc">Data Description</p>
+          </div>
+          <div class="homeright" id="homeright1">
+              <p>Creator: R.A. Fisher</p>
+              <p>Donor: Michael Marshall</p>
+              <p>This data is collected from <a href="https://archive.ics.uci.edu/ml/datasets/Iris">https://archive.ics.uci.edu/ml/datasets/Iris</a></p>
+          </div>
+          <div class="homeright" id="homeright2">
+              <p>Number of Instances: 150</p>
+              <p>Missing Values: 0</p>
+              <p>Duplicate Values: 0</p>
+              <p>No significant data cleaning was required for this dataset</p>
+          </div>
+          <div class="homeright" id="homeright3">
+              <p>Title: Iris Plants Database</p>
+              <p>Attribute Information:</p>
+              <ul>
+                  <li>sepal length in cm</li>
+                  <li>sepal width in cm</li>
+                  <li>petal length in cm</li>
+                  <li>petal width in cm</li>
+                  <li>class: Iris Setosa, Iris Versicolor, Iris Virginica</li>
+              </ul>
+              <img src="../static/statistics.png" width="500px" height="230px">
+          </div>
+      </div>
+      <div id="visualization">
+          <div id="vleft">
+              <div id='sepall'>Sepal Length</div>
+              <div id='sepalw'>Sepal Width</div>
+              <div id='petall'>Petal Length</div>
+              <div id='petalw'>Petal Width</div>
+              <div id='pair'>Pairplot</div>
+          </div>
+          <div class="vright" id="vright1">
+              <img class="firstimg" src="../static/__results___6_0.png">
+              <img class="secondimg" src="../static/__results___8_0.png">
+              <img class="thirdimg" src="../static/__results___9_0.png">
+              <img class="fourthimg" src="../static/__results___7_0.png">
+          </div>
+          <div class="vright" id="vright2">
+              <img class="firstimg" src="../static/__results___11_0.png">
+              <img class="secondimg" src="../static/__results___13_0.png">
+              <img class="thirdimg" src="../static/__results___14_0.png">
+              <img class="fourthimg" src="../static/__results___12_0.png">
+          </div>
+          <div class="vright" id="vright3">
+              <img class="firstimg" src="../static/__results___16_0.png">
+              <img class="secondimg" src="../static/__results___18_0.png">
+              <img class="thirdimg" src="../static/__results___19_0.png">
+              <img class="fourthimg" src="../static/__results___17_0.png">
+          </div>
+          <div class="vright" id="vright4">
+              <img class="firstimg" src="../static/__results___21_0.png">
+              <img class="secondimg" src="../static/__results___23_0.png">
+              <img class="thirdimg" src="../static/__results___24_0.png">
+              <img class="fourthimg" src="../static/__results___22_0.png">
+          </div>
+          <div class="vright" id="vright5">
+              <img class="firstimg" src="../static/__results___26_0.png">
+          </div>
+      </div>
+      <div id="performance">
+        <div id="pleft">
+            <div id='lr'>Logistic Regression</div>
+            <div id='svm'>Support Vector Classifier</div>
+            <div id='knn'>KNeightbors Classifier</div>
+            <div id='dt'>Decision Trees Classifier</div>
+        </div>
+        <div class="pright" id="pright1">
+            <img class="pfirstimg" src="../static/__results___32_0.png">
+            <img class="psecondimg" src="../static/__results___33_0.png">
+            <h1>Accuracy: 95.56%</h1>
+        </div>
+        <div class="pright" id="pright2">
+            <img class="pfirstimg" src="../static/__results___36_0.png">
+            <img class="psecondimg" src="../static/__results___37_0.png">
+            <h1>Accuracy: 97.78%</h1>
+        </div>
+        <div class="pright" id="pright3">
+            <img class="pfirstimg" src="../static/__results___40_0.png">
+            <img class="psecondimg" src="../static/__results___41_0.png">
+            <h1>Accuracy: 93.33%</h1>
+        </div>
+        <div class="pright" id="pright4">
+            <img class="pfirstimg" src="../static/__results___44_0.png">
+            <img class="psecondimg" src="../static/__results___45_0.png">
+            <h1>Accuracy: 95.56%</h1>
+        </div>
+      </div>
+      <div id="prediction">
+        <div id="prleft">
+          <form method="POST">
+            <p>Enter Sepal Length(4-8) <input type="text" name="sepall"></p><br/>
+            <p>Enter Sepal Width(2-5) <input type="text" name="sepalw"></p><br/>
+            <p>Enter Petal Length(1-7) <input type="text" name="petall"></p><br/>
+            <p>Enter Petal Width(0-3) <input type="text" name="petalw"></p><br/>
+            <button id="predbtn">SUBMIT</button>
+          </form>
+        </div>
+        <div id="prright">
+          <h2>RESULT</h2>
+          <img src="../static/{{ data }}.png">
+          <br><br><h1>{{ data }}</h1>
+        </div>
+      </div>
+      <script type="text/javascript">
+        if("{{ data[0] }}" === 'I'){
+          var home = document.getElementById('home');
+          var visualization = document.getElementById('visualization');
+          var performances = document.getElementById('performance');
+          var prediction = document.getElementById('prediction');
+
+          prediction.style.display = 'block';
+          home.style.display = 'none';
+          visualization.style.display = 'none';
+          performances.style.display = 'none';
+        }
+      </script>
+      <script src="{{ url_for('static', filename='main.js') }}"></script>
+  </body>
+</html>

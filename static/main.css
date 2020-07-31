@@ -1,0 +1,285 @@
+* {
+  font-family:'Roboto',sans-serif;
+}
+#topbar {
+  display: inline-block;
+  width: 98vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 10px;
+}
+#topbar p {
+  display: inline-flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 15px 0px;
+  margin-top: 0px;
+}
+#topbar p:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+#home {
+  display: inline-block;
+  width: 98vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85vh;
+  background-color: black;
+  color: white;
+}
+#homeleft {
+  display: inline-block;
+  width: 30vw;
+  text-align: center;
+  height: 35vh;
+  padding: 15vh 0px 25vh 0px;
+}
+#homeleft p {
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 4px solid white;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 20px;
+  padding: 10px 0px;
+  color: black;
+}
+#homeleft p:hover {
+  border: 4px solid blue;
+  cursor: pointer;
+}
+.homeright {
+  position: absolute;
+  left: 30.8vw;
+  bottom: 2.1vh;
+  width: 68vw;
+  background-color: white;
+  color: black;
+  height: 85vh;
+}
+#homeright1 {
+  display: block;
+}
+#homeright1 p:first-of-type {
+  padding-top: 80px;
+}
+#homeright1 p {
+  font-size: 25px;
+  padding: 0px 0px 0px 30px;
+  text-align: center;
+}
+#homeright2 {
+  display: none;
+}
+#homeright2 p:first-of-type {
+  padding-top: 80px;
+}
+#homeright2 p:last-of-type {
+  color: red;
+}
+#homeright2 p {
+  font-size: 25px;
+  padding: 0px 0px 0px 30px;
+  text-align: center;
+}
+#homeright3 {
+  display: none;
+}
+#homeright3 p:first-of-type {
+  font-size: 25px;
+  padding: 0px 0px 0px 30px;
+  text-align: center;
+}
+#homeright3 p:last-of-type {
+  margin-left: 30px;
+}
+#homeright3 img {
+  padding-left: 140px;
+}
+
+#visualization {
+  display: none;
+}
+#vleft {
+  display: inline-block;
+  width: 20vw;
+  text-align: center;
+  padding: 10vh 0px 5vh 0px;
+  background-color: gray;
+}
+#vleft div {
+  width: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 4px solid white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 10px 0px;
+  color: black;
+}
+#vleft div:hover {
+  border: 4px solid white;
+  border-bottom: 4px solid blue;
+  cursor: pointer;
+}
+.vright img {
+  width: 38vw;
+  height: 210px;
+}
+.firstimg {
+  position: absolute;
+  left: 21vw;
+  top: 70px;
+}
+.secondimg {
+  position: absolute;
+  left: 60vw;
+  top: 70px;
+}
+.thirdimg {
+  position: absolute;
+  left: 21vw;
+  top: 290px;
+}
+.fourthimg {
+  position: absolute;
+  left: 60vw;
+  top: 290px;
+}
+#vright1 {
+  display: block;
+}
+#vright2 {
+  display: none;
+}
+#vright3 {
+  display: none;
+}
+#vright4 {
+  display: none;
+}
+#vright5 {
+  display: none;
+}
+#vright5 img {
+  padding-left: 20px;
+  height: 450px;
+  width: 75vw;
+}
+#performance {
+  display: none;
+}
+#pleft {
+  display: inline-block;
+  width: 20vw;
+  text-align: center;
+  padding: 5vh 0px 5vh 0px;
+  background-color: lightblue;
+}
+#pleft div {
+  width: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 4px solid white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 10px 0px;
+  color: black;
+}
+#pleft div:hover {
+  border: 4px solid white;
+  border-bottom: 4px solid black;
+  cursor: pointer;
+}
+.pfirstimg {
+  position: absolute;
+  left: 24vw;
+  top: 70px;
+}
+.psecondimg {
+  position: absolute;
+  left: 62vw;
+  top: 70px;
+}
+.pright img {
+  width: 36vw;
+  height: 300px;
+}
+.pright h1 {
+  position: absolute;
+  left: 48vw;
+  top: 400px;
+}
+#pright1 {
+  display: block;
+}
+#pright2 {
+  display: none;
+}
+#pright3 {
+  display: none;
+}
+#pright4 {
+  display: none;
+}
+
+#prediction {
+  display: none;
+}
+#prleft {
+  display: inline-block;
+  width: 48vw;
+  height: 78vh;
+  font-size: 20px;
+  padding: 3vh 0px 3vh 0px;
+  text-align: center;
+}
+#prleft button {
+  padding: 15px 40px;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  outline: none;
+}
+#prleft button:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  background-color: darkgreen;
+  color: white;
+  cursor: pointer;
+}
+#prright {
+  display: block;
+  position: absolute;
+  left: 49vw;
+  top: 60px;
+  background-color: black;
+  color: white;
+  height: 84.5vh;
+  width: 48vw;
+  padding: 10px;
+  text-align: center;
+}
+#prright img {
+  border: 2px solid gray;
+  height: 200px;
+  width: 200px;
+  margin-top: 40px;
+  background-color: white;
+}
