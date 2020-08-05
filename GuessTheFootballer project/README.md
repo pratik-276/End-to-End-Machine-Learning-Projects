@@ -1,6 +1,6 @@
 ## GuessTheFootballer
 
-<p align="center"><img src="https://github.com/pratik-276/End-to-End-Machine-Learning-Projects/blob/master/GuessTheFootballer%20project/app/static/4.PNG" height="200" width="200"></p>
+<p align="center"><img src="https://github.com/pratik-276/End-to-End-Machine-Learning-Projects/blob/master/GuessTheFootballer%20project/app/static/4.PNG" height="200" width="300"></p>
 
 ## Introduction
 
