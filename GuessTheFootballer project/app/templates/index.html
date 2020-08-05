@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOT BALL GAME</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+
+<body>
+    <div id="welcome">
+      <h1>WELCOME TO GuesstheFootballer GAME</h1>
+      <p><h3>Let's understand the rules first</h3>You will be shown images and names of 6 random players who are in FIFA20.<br>
+      <br>Next you will be given 5 hints, one by one.<br>You can guess the player at any point of time by clicking on the image
+      of that player.<br><br>If you guess it wrong then you will be thrown back to the welcome page.<br>
+      If you guess it right, you will be given subsequent points.<br><br>60 - Answering on first hint<br>
+      50 - Answering on second hint<br>40 - Answering on third hint<br>20 - Answering on fourth hint<br>
+      10 - Answering on last hint<br>0 - For not answering(what else do you expect)</p>
+      <a href="game.html"><button type="button" id="gotogame">START THE GAME</button></a>
+    </div>
+</body>

@@ -1,0 +1,4 @@
+numpy==1.18.*
+flask==1.0.2
+pandas==1.0.4
+joblib==0.16.*

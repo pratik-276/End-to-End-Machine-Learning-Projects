@@ -1,0 +1,39 @@
+* {
+	background-color: black;
+}
+#body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+#welcome {
+  position: absolute;
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+}
+#welcome h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#gotogame {
+  padding:0.35em 1.2em;
+  border:1px solid white;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color: white;
+  background-color: black;
+  transition: all 0.2s;
+  outline: none;
+}
+#gotogame:hover {
+  background-color: white;
+  color: black;
+}

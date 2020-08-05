@@ -1,0 +1,98 @@
+body {
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+}
+#images {
+  margin-bottom: 30px;
+  display: flex;
+  width: 98.5vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  display: inline-block;
+  height: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  background-color: black;
+}
+.card:hover {
+    animation: sec2scale 0.8s forwards;
+    cursor: pointer;
+}
+@keyframes sec2scale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+.card img {
+  height: 120px;
+  width: 10vw;
+}
+.card p {
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color: white;
+  width: 10vw;
+}
+#zero_hint {
+  display: block;
+}
+#first_hint {
+  display: none;
+}
+#second_hint {
+  display: none;
+}
+#third_hint {
+  display: none;
+}
+#fifth_hint {
+  display: none;
+}
+#fourth_hint {
+  display: none;
+}
+.hintbtn {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #60a3bc;
+padding: 20px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+outline: none;
+}
+.hintbtn:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .card img {
+    width: 30vw;
+  }
+  .card p {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card img {
+    width: 22vw;
+  }
+  .card p {
+    width: 22vw;
+  }
+}
