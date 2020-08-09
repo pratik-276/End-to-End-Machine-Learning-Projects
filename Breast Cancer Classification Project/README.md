@@ -1,6 +1,6 @@
 ## BREAST CANCER CLASSIFICATION
 
-<p align="center"><img src="" height="200" width="200"></p>
+<p align="center"><img src="https://github.com/pratik-276/End-to-End-Machine-Learning-Projects/blob/master/Breast%20Cancer%20Classification%20Project/static/4.PNG" height="200" width="200"></p>
 
 ## Introduction
 
@@ -10,6 +10,9 @@ This Web Application powered by <b>Machine Learning</b> and deployed using <b>St
 
 <ul>
   <li>Streamlit</li>
+  <li>Matplotlib</li>
+  <li>Seaborn</li>
+  <li>Plotly</li>
   <li>Pandas</li>
   <li>Sklearn</li>
 </ul>
@@ -43,12 +46,12 @@ streamlit run main.py
 
 ## Contents
 
-1. Data Description
-2. Checking Missing Values
+<h3>1. Data Description</h3>
+<h3>2. Checking Missing Values</h3>
 <img src="https://github.com/pratik-276/End-to-End-Machine-Learning-Projects/blob/master/Breast%20Cancer%20Classification%20Project/static/1.PNG">
-3. EDA
+<h3>3. EDA</h3>
 <img src="https://github.com/pratik-276/End-to-End-Machine-Learning-Projects/blob/master/Breast%20Cancer%20Classification%20Project/static/2.PNG">
-4. Model training and performance
+<h3>4. Model training and performance</h3>
 <img src="https://github.com/pratik-276/End-to-End-Machine-Learning-Projects/blob/master/Breast%20Cancer%20Classification%20Project/static/3.PNG">
 
 ## Conclusion
