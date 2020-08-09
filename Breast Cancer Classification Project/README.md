@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This Web Application powered by <b>Machine Learning</b> and deployed using <b>Streamlit</b> focusses on various works on the <b>wisconsin dataset</b> starting from data source, cleaning, EDA and finally to creating a classification model that classifies whether a cancer is <b>benign or malignant<b>. The <b>accuracy of the model</b> is also checked using various methods and plots.
+This Web Application powered by <b>Machine Learning</b> and deployed using <b>Streamlit</b> focusses on various works on the <b>wisconsin dataset</b> starting from data source, cleaning, EDA and finally to creating a classification model that classifies whether a cancer is <b>benign or malignant</b>. The <b>accuracy of the model</b> is also checked using various methods and plots.
 
 ## Technology Used
 
