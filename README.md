@@ -22,5 +22,7 @@ In most cases machine learning gets limited to the same call, fit, predict loop.
 ## Projects Completed
 
 1. <a href="https://github.com/pratik-276/End-to-End-Machine-Learning-Projects/tree/master/IRIS%20Flower%20Classification%20Project">Iris Flower Classification Project</a>
+2. <a href="https://github.com/pratik-276/End-to-End-Machine-Learning-Projects/tree/master/GuessTheFootballer%20project">GuessTheFootballer Project</a>
+3. <a href="https://github.com/pratik-276/End-to-End-Machine-Learning-Projects/tree/master/Breast%20Cancer%20Classification%20Project">Breast Cancer Classification Project</a>
 
 More projects coming up soon. Do drop a ⭐ if you like it.
