@@ -1,4 +1,4 @@
-# Machine Learning 
+# Machine Learnin
 
 <p align="center">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRqMO6aM8Yeh1BNjgmlxuO1WvFxjoYma-0qzHy2MbIiGke5kFU&s" height="300" width="500">
