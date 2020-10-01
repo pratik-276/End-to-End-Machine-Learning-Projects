@@ -5,7 +5,7 @@
  </p>
 
 ## 📌 Introduction
-In most cases machine learning gets limited to the same call, fit, predict loop. Whereas ML is actually much more than that. This repository will be a place containing multiple ML projects which involves all the steps starting from data collection to final model deployment. Each of the projects have a separate readme file attached to them which will be explaining the steps to follow for recreating the project on your own system.
+ most cases machine learning gets limited to the same call, fit, predict loop. Whereas ML is actually much more than that. This repository will be a place containing multiple ML projects which involves all the steps starting from data collection to final model deployment. Each of the projects have a separate readme file attached to them which will be explaining the steps to follow for recreating the project on your own system.
 
 ## Contents
 
