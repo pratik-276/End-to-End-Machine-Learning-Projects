@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-36 {
+  font-size: 36px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.h-90 {
+  height: 90%;
+}
+.h-80 {
+  height: 80%;
+}
+.h-70 {
+  height: 70%;
+}
+.h-60 {
+  height: 60%;
+}
+.h-40 {
+  height: -40%;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.w-80 {
+  width: 80%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-45 {
+  width: 45%;
+}
+.w-55 {
+  width: 55%;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.tweet-icon-1:hover div {
+  background-color: lightblue;
+  border: 1px solid blue;
+  color: white;
+}
+.tweet-icon-1:hover span {
+  color: blue;
+}
+.tweet-icon-2:hover div {
+  background-color: lightgreen;
+  border: 1px solid green;
+  color: white;
+}
+.tweet-icon-2:hover span {
+  color: green;
+}
+.tweet-icon-3:hover div {
+  background-color: pink;
+  border: 1px solid red;
+  color: white;
+}
+.tweet-icon-3:hover span {
+  color: red;
+}
