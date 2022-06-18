@@ -8,6 +8,14 @@ Often, a user's Twitter feed is filled with content from a wide range of the use
 The user may expect a tweet to perform well however reality may be different. TweetNiche's tweet analytics tool can help study a tweet's performance by showing a user's tweet in relation to other tweets in the Niche that are most similar but more popular than the user's tweet.
 
 
+## Developers
+
+1. Aman Pawar
+2. Alvin Vinod
+3. Ojas Kulkarni
+4. Pratik Mukherjee
+
+
 
 ## Project Outline
 
