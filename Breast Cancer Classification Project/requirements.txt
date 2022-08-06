@@ -1,6 +1,6 @@
 numpy==1.18.5
 pandas==1.0.4
-streamlit==0.64.0
+streamlit==1.11.1
 seaborn==0.10.1
 scikit-learn==0.23.1
 plotly==4.9.0
