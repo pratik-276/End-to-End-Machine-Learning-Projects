@@ -55,7 +55,7 @@ packaging==21.3
 pandas==1.4.2
 parso==0.8.3
 pickleshare==0.7.5
-Pillow==9.1.1
+Pillow==9.3.0
 pptree==3.1
 prompt-toolkit==3.0.29
 psutil==5.9.1
