@@ -1,5 +1,5 @@
 Flask==2.0.2
-certifi==2021.10.8
+certifi==2022.12.7
 dnspython==2.2.0
 gunicorn==20.1.0
 Jinja2==3.0.3
