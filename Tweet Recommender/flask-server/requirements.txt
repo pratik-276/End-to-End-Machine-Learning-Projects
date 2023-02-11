@@ -32,7 +32,7 @@ hyperopt==0.2.7
 idna==3.3
 importlib-metadata==3.10.1
 ipykernel==6.13.0
-ipython==8.3.0
+ipython==8.10.0
 Janome==0.4.2
 jedi==0.18.1
 joblib==1.1.0
