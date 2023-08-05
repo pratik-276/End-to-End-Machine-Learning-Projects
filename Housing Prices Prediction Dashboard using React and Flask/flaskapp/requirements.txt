@@ -9,7 +9,7 @@ joblib==0.13.2
 kiwisolver==1.1.0
 lightgbm==2.2.1
 patsy==0.5.1
-pip==19.1.1
+pip==21.1
 pyparsing==2.4.0
 python-dateutil==2.8.0
 scikit-learn==1.0.2
